@@ -8,7 +8,6 @@ import { HelloComponent } from './hello.component';
 import { TeamComponent } from './team/team.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { LayoutComponent } from './layout/layout.component';
 
 RouterModule.forRoot([
    {
@@ -23,7 +22,7 @@ RouterModule.forRoot([
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule ],
-  declarations: [ AppComponent, HelloComponent, TeamComponent, HomeComponent, NavbarComponent, LayoutComponent ],
+  declarations: [ AppComponent, HelloComponent, TeamComponent, HomeComponent, NavbarComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
