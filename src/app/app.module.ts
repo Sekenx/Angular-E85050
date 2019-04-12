@@ -8,6 +8,10 @@ import { HelloComponent } from './hello.component';
 import { TeamComponent } from './team/team.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { LayoutComponent } from './layout/layout.component';
+import { SharedComponent } from './shared/shared.component';
 
 RouterModule.forRoot([
    {
@@ -22,7 +26,7 @@ RouterModule.forRoot([
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule ],
-  declarations: [ AppComponent, HelloComponent, TeamComponent, HomeComponent, NavbarComponent ],
+  declarations: [ AppComponent, HelloComponent, TeamComponent, HomeComponent, NavbarComponent, HeaderComponent, FooterComponent, LayoutComponent, SharedComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
