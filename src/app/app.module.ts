@@ -24,7 +24,7 @@ RouterModule.forRoot([
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule ],
-  declarations: [ AppComponent, HelloComponent, TeamComponent, HomeComponent,  HeaderComponent, FooterComponent, SharedComponent ],
+  declarations: [ AppComponent, HelloComponent, TeamComponent, HomeComponent, HeaderComponent, FooterComponent, SharedComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
