@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './shared/layout/header/header.component';
 import { FooterComponent } from './shared/layout/footer/footer.component';
 import { SharedComponent } from './shared/shared.component';
+import { SidebarComponent } from './shared/layout/sidebar/sidebar.component';
 
 RouterModule.forRoot([
    {
@@ -24,7 +25,7 @@ RouterModule.forRoot([
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule ],
-  declarations: [ AppComponent, HelloComponent, TeamComponent, HomeComponent, HeaderComponent, FooterComponent, SharedComponent ],
+  declarations: [ AppComponent, HelloComponent, TeamComponent, HomeComponent, HeaderComponent, FooterComponent, SharedComponent, SidebarComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
